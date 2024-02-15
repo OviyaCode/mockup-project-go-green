@@ -1,5 +1,5 @@
 import React from "react";
-import banner from "../assets/blog.png";
+// import banner from "../assets/blog.png";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
@@ -12,7 +12,7 @@ const Footer = () => {
       <Divider />
       <div className=" text-sm max-w-screen-2xl mt-6 flex md:flex-row flex-col bg-neutral-800 text-white py-3 px-3 h-full md:h-auto">
         <div className="flex mt-3 cursor-pointer">
-          <img src={banner} className="w-64 h-fit " />
+          {/* <img src={banner} className="w-64 h-fit " /> */}
           <ul className="mt-3 px-2 text-neutral-two">
             <li className="text-ternary-brand cursor-pointer">Go Green</li>
             <li className="text-neutral-two">
