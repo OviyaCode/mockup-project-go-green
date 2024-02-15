@@ -1,6 +1,6 @@
 import React from "react";
 import Divider from "../components/Divider";
-import blog from "../assets/programs.png";
+// import blog from "../assets/programs.png";
 const Blog = () => {
   const blogData = [
     {
@@ -75,7 +75,7 @@ const Blog = () => {
                 );
               })}
             </div>
-            <img src={blog} className="w-auto ml-28 h-52" />
+            {/* <img src={blog} className="w-auto ml-28 h-52" /> */}
           </div>
         </div>
       </div>

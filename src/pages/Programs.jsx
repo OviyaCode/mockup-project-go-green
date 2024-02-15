@@ -1,24 +1,34 @@
 import React from "react";
-import cleaning from "./../assets/cleaning.jpg";
-import cycling from "./../assets/cycling.jpg";
-import planting from "./../assets/planting.jpg";
-import welfare from "./../assets/welfare.jpg";
-import drawing from "./../assets/drawing.jpg";
-import camping from "./../assets/camping.jpg";
+// import cleaning from "./../assets/cleaning.jpg";
+// import cycling from "./../assets/cycling.jpg";
+// import planting from "./../assets/planting.jpg";
+// import welfare from "./../assets/welfare.jpg";
+// import drawing from "./../assets/drawing.jpg";
+// import camping from "./../assets/camping.jpg";
 import { FaLeaf } from "react-icons/fa";
 
 const Programs = () => {
   const activities = [
-    { id: 1, img: cleaning, tagline: "Conducting clean-city program" },
-    { id: 2, img: cycling, tagline: "Conducting awareness program" },
-    { id: 3, img: planting, tagline: "Conducting clean-city planting program" },
-    { id: 4, img: welfare, tagline: "Conducting kids wefalre activities" },
+    { id: 1, 
+      // img: cleaning, 
+      tagline: "Conducting clean-city program" },
+    { id: 2, 
+      // img: cycling, 
+      tagline: "Conducting awareness program" },
+    { id: 3, 
+      // img: planting, 
+      tagline: "Conducting clean-city planting program" },
+    { id: 4, 
+      // img: welfare, 
+      tagline: "Conducting kids wefalre activities" },
     {
       id: 5,
-      img: drawing,
+      // img: drawing,
       tagline: "Conducting clean-city drawing competitions",
     },
-    { id: 6, img: camping, tagline: "Conducting clean-city camping programs" },
+    { id: 6, 
+      // img: camping, 
+      tagline: "Conducting clean-city camping programs" },
   ];
   return (
     <div
@@ -38,7 +48,7 @@ const Programs = () => {
                 className="w-96 h-auto py-3 px-3 cursor-pointer"
                 key={prog.id}
               >
-                <img src={prog.img} className="rounded-lg shadow-md" />
+                {/* <img src={prog.img} className="rounded-lg shadow-md" /> */}
                 <p className="text-center pt-2 text-neutral-two">
                   <span className="inline-block">
                     <FaLeaf color="#4CBB17" />{" "}

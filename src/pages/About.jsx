@@ -1,5 +1,5 @@
 import React from "react";
-import about from "./../assets/about.png";
+// import about from "./../assets/about.png";
 import Divider from "../components/Divider";
 const About = () => {
   const content = [
@@ -26,11 +26,11 @@ const About = () => {
       </div>
       <div className="container md:flex md:flex-row gap-10 px-16 py-10">
         <div className="container py-4 mt-3 m-auto">
-          <img
+          {/* <img
             src={about}
             alt="about_us"
             className="hover:cursor-pointer h-78"
-          />
+          /> */}
         </div>
         <div className="container py-4 mt-3 m-auto bg-neutral-one rounded">
           {content.map((item) => {

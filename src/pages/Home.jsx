@@ -1,5 +1,5 @@
 import React from "react";
-import hero from "../assets/heroP.png";
+// import hero from "../assets/heroP.png";
 import Animation from "../components/Animation";
 const Home = () => {
   return (
@@ -25,7 +25,7 @@ const Home = () => {
         </div>
       </div>
       <div className="container flex pt-3 py-4 md:h-96 max-h-78 md:mt-0 mt-auto justify-start items-center">
-        <img src={hero} className="w-auto h-full" />
+        {/* <img src={hero} className="w-auto h-full" /> */}
       </div>
     </div>
   );

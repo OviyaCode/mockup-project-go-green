@@ -1,5 +1,5 @@
 import React from "react";
-import map from "./../assets/world.svg";
+// import map from "./../assets/world.svg";
 import { LuSendHorizonal } from "react-icons/lu";
 const Contact = () => {
   return (
@@ -12,10 +12,10 @@ const Contact = () => {
       </div>
       <div className=" w-full flex  flex-col md:flex-row gap-5 px-5">
         <div className="md:w-2/4 py-7">
-          <img
+          {/* <img
             src={map}
             className="bg-cover bg-center cursor-pointer md:flex hidden"
-          />
+          /> */}
           <div className="md:flex flex-col text-neutral-one hidden rounded-sm z-10 relative left-24 -top-64 bg-[rgba(0,0,0,0.6)] w-96 p-4">
             <h5 className="py-1 text-secondary-brand">Contact Us</h5>
             <p className="py-1 px-4 text-sm">No:53, Peradeniya Street, Kandy</p>
